@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Tienda de celulares</title>
+        <script src="https://kit.fontawesome.com/df59baf6b8.js" crossorigin="anonymous"></script>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+        <script defer src="modal.js"></script>
+        <script defer src="app.js"></script>
+        <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    </head>
+
+    <body>
+
+        <header>
+            <h1>Tienda de celulares</h1>
+            <button id="boton-carrito">
+                <div class="separa2">
+                    <div><img class="carritoImagen" src="img/carrito.png"></div>
+                    <div><span id="contadorCarrito">0</span></div>
+                </div>
+            </button>
+        </header>
+
+        <!-- ACÁ SE INSERTAN LAS CARDS DE PRODUCTOS -->
+        <main id="contenedor-productos">
+
+        </main>
+
+        <!-- CÓDIGO DEL CARRITO -->
+        <div class="modal-contenedor">
+            <div class="modal-carrito">
+                <h3>Carrito</h3>
+                <button id="carritoCerrar"><i class="fas fa-times-circle"></i></button>
+                <div id="carrito-contenedor">
+                    <!-- <div class="productoEnCarrito">
+                        <p>Buzo 1</p>
+                        <p>Precio: $1200</p>
+                        <button class="boton-eliminar"><i class="fas fa-trash-alt"></i></button>
+                    </div> -->
+                </div>
+                <p class="precioProducto">Precio total: $<span id="precioTotal">0</span></p>
+                <button id="vaciar-carrito" class="boton-agregar">Vaciar carrito</button>
+                <button id="comprar" class="boton-agregar">Comprar</button>
+            </div>
+        </div>
+
+        <!-- CODIGO DEL FOOTER -->
+        <footer>
+            <h2>Redes:</h2>
+            <div class="contenedorLogos">
+                <div class="loguitos">
+                    <img class="logo" src="https://hieloandino.cl/wp-content/uploads/2019/09/whatsapp-logo-png-hd-2.png" alt="">
+                    <a target="_blank" href="">Whatsapp</a>
+                </div>
+                <div class="loguitos">
+                    <img class="logo" src="http://www.danielhernandez.website/wp-content/uploads/2017/07/facebook-icon-gran.png" alt="">
+                    <a target="_blank" href="">Facebook</a>
+                </div>
+                <div class="loguitos">
+                    <img class="logo" src="https://regioasador.com/wp-content/uploads/2020/06/instagram-logo.png" alt="">
+                    <a target="_blank" href="">Instagram</a>
+                </div>
+            </div>
+        </footer>
+        <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    </body>
+</html>

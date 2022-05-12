@@ -1,0 +1,14 @@
+[
+    {"id": 1, "nombre": "Iphone 12", "cantidad": 1, "precio": 150000, "img": "img/iphone.png"},
+    {"id": 2, "nombre": "Moto G100", "cantidad": 1, "precio": 90000, "img": "img/g100.png"},
+    {"id": 3, "nombre": "Samsung S20", "cantidad": 1, "precio": 120000, "img": "img/s20.png"},
+    {"id": 4, "nombre": "Xiaomi 9", "cantidad": 1, "precio": 80000, "img": "img/xiaomi.png"},
+    {"id": 5, "nombre": "Iphone 8", "cantidad": 1, "precio": 150000, "img": "img/iphone8.png"},
+    {"id": 6, "nombre": "Moto G9", "cantidad": 1, "precio": 90000, "img": "img/g9.png"},
+    {"id": 7, "nombre": "Samsung S9", "cantidad": 1, "precio": 120000, "img": "img/s9.jpg"},
+    {"id": 8, "nombre": "Xiaomi 8 ", "cantidad": 1, "precio": 80000, "img": "img/xiaomi8.png"},
+    {"id": 9, "nombre": "Iphone X", "cantidad": 1, "precio": 150000, "img": "img/iphonex.png"},
+    {"id": 10, "nombre": "Moto G60", "cantidad": 1, "precio": 90000, "img": "img/g60.png"},
+    {"id": 11, "nombre": "Samsung S10", "cantidad": 1, "precio": 120000, "img": "img/s10.png"},
+    {"id": 12, "nombre": "Xiaomi 10", "cantidad": 1, "precio": 80000, "img": "img/xiaomi10.png"}
+]
